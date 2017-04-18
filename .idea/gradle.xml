@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8 (2)" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/client" />
+            <option value="$PROJECT_DIR$/client/jackson" />
+            <option value="$PROJECT_DIR$/client/jfx" />
+            <option value="$PROJECT_DIR$/client/mock" />
+            <option value="$PROJECT_DIR$/client/rpc" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/docs" />
+            <option value="$PROJECT_DIR$/docs/source/example-code" />
+            <option value="$PROJECT_DIR$/experimental" />
+            <option value="$PROJECT_DIR$/experimental/sandbox" />
+            <option value="$PROJECT_DIR$/finance" />
+            <option value="$PROJECT_DIR$/finance/isolated" />
+            <option value="$PROJECT_DIR$/node" />
+            <option value="$PROJECT_DIR$/node-api" />
+            <option value="$PROJECT_DIR$/node-schemas" />
+            <option value="$PROJECT_DIR$/node/capsule" />
+            <option value="$PROJECT_DIR$/samples" />
+            <option value="$PROJECT_DIR$/samples/attachment-demo" />
+            <option value="$PROJECT_DIR$/samples/bank-of-corda-demo" />
+            <option value="$PROJECT_DIR$/samples/irs-demo" />
+            <option value="$PROJECT_DIR$/samples/network-visualiser" />
+            <option value="$PROJECT_DIR$/samples/raft-notary-demo" />
+            <option value="$PROJECT_DIR$/samples/simm-valuation-demo" />
+            <option value="$PROJECT_DIR$/samples/trader-demo" />
+            <option value="$PROJECT_DIR$/test-utils" />
+            <option value="$PROJECT_DIR$/tools" />
+            <option value="$PROJECT_DIR$/tools/demobench" />
+            <option value="$PROJECT_DIR$/tools/explorer" />
+            <option value="$PROJECT_DIR$/tools/explorer/capsule" />
+            <option value="$PROJECT_DIR$/tools/loadtest" />
+            <option value="$PROJECT_DIR$/verifier" />
+            <option value="$PROJECT_DIR$/webserver" />
+            <option value="$PROJECT_DIR$/webserver/webcapsule" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

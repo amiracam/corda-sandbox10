@@ -1,0 +1,322 @@
+[INFO ] 2017-04-17T10:58:27,524 [Test worker] config.ConfigHelper.loadConfig - Config:
+{
+    # hardcoded value
+    "basedir" : "some-example-base-dir",
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # merge of /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 5,reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 9
+        "dataSource.password" : "",
+        # merge of /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 7,hardcoded value,/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 7
+        "dataSource.url" : "jdbc:h2:file:some-example-base-dir/persistence",
+        # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 8
+        "dataSource.user" : "sa",
+        # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 6
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 23
+    "devMode" : true,
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 14
+    "extraAdvertisedServiceIds" : [
+        # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 14
+        "corda.interest_rates"
+    ],
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 16
+    "h2port" : 0,
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 3
+    "keyStorePassword" : "cordacadevpass",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 1
+    "myLegalName" : "Bank A",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 2
+    "nearestCity" : "London",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 15
+    "networkMapService" : {
+        # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 16
+        "address" : "my-network-map:10000",
+        # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 17
+        "legalName" : "Network Map Service"
+    },
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 11
+    "p2pAddress" : "my-corda-node:10002",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 12
+    "rpcAddress" : "my-corda-node:10003",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 20
+    "rpcUsers" : [
+        # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 21
+        {
+            # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 21
+            "password" : "letmein",
+            # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 21
+            "permissions" : [
+                # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 21
+                "StartProtocol.net.corda.protocols.CashProtocol"
+            ],
+            # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 21
+            "user" : "user1"
+        }
+    ],
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 4
+    "trustStorePassword" : "trustpass",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 19
+    "useHTTPS" : false,
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 17
+    "useTestClock" : false,
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 18
+    "verifierType" : "InMemory",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-node.conf: 13
+    "webAddress" : "localhost:10004"
+}
+
+[INFO ] 2017-04-17T10:58:27,617 [Test worker] config.ConfigHelper.loadConfig - Config:
+{
+    # hardcoded value
+    "basedir" : "some-example-base-dir",
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 9,reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:some-example-base-dir/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=100;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 16
+    "h2port" : 0,
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 5
+    "keyStorePassword" : "cordacadevpass",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-out-of-process-verifier-node.conf: 1
+    "myLegalName" : "Bank A",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-out-of-process-verifier-node.conf: 2
+    "nearestCity" : "London",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-out-of-process-verifier-node.conf: 5
+    "networkMapService" : {
+        # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-out-of-process-verifier-node.conf: 6
+        "address" : "my-network-map:10000",
+        # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-out-of-process-verifier-node.conf: 7
+        "legalName" : "Network Map Service"
+    },
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-out-of-process-verifier-node.conf: 3
+    "p2pAddress" : "my-corda-node:10002",
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 6
+    "trustStorePassword" : "trustpass",
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 15
+    "useHTTPS" : false,
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 17
+    "useTestClock" : false,
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-out-of-process-verifier-node.conf: 9
+    "verifierType" : "OutOfProcess",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-out-of-process-verifier-node.conf: 4
+    "webAddress" : "localhost:10003"
+}
+
+[INFO ] 2017-04-17T10:58:27,625 [Test worker] config.ConfigHelper.loadConfig - Config:
+{
+    # hardcoded value
+    "basedir" : "some-example-base-dir",
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 14
+    "certificateSigningService" : "https://cordaci-netperm.corda.r3cev.com",
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 7
+    "dataSourceProperties" : {
+        # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 11
+        "dataSource.password" : "",
+        # merge of reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 9,hardcoded value,reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 9,reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 16
+        "dataSource.url" : "jdbc:h2:file:some-example-base-dir/persistence;DB_CLOSE_ON_EXIT=FALSE;LOCK_TIMEOUT=10000;WRITE_DELAY=100;AUTO_SERVER_PORT=0",
+        # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 10
+        "dataSource.user" : "sa",
+        # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 8
+        "dataSourceClassName" : "org.h2.jdbcx.JdbcDataSource"
+    },
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 13
+    "devMode" : true,
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 3
+    "emailAddress" : "admin@company.com",
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 4
+    "exportJMXto" : "http",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-network-map-node.conf: 8
+    "extraAdvertisedServiceIds" : [],
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 16
+    "h2port" : 0,
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-network-map-node.conf: 3
+    "keyStorePassword" : "cordacadevpass",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-network-map-node.conf: 1
+    "myLegalName" : "Notary Service",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-network-map-node.conf: 2
+    "nearestCity" : "London",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-network-map-node.conf: 5
+    "p2pAddress" : "my-network-map:10000",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-network-map-node.conf: 7
+    "sshdAddress" : "localhost:10002",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-network-map-node.conf: 4
+    "trustStorePassword" : "trustpass",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-network-map-node.conf: 9
+    "useHTTPS" : false,
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 17
+    "useTestClock" : false,
+    # reference.conf @ jar:file:/Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/node/build/libs/node-0.10.1.jar!/reference.conf: 18
+    "verifierType" : "InMemory",
+    # /Users/charles/IdeaProjects/AmiracamCorda-10_1/corda/docs/source/example-code/build/resources/main/example-network-map-node.conf: 6
+    "webAddress" : "localhost:10001"
+}
+
+[WARN ] 2017-04-17T10:58:28,165 [Test worker] node.MockNetwork$MockNode.start - Corda node is running in dev mode.
+[INFO ] 2017-04-17T10:58:29,144 [Test worker] node.MockNetwork$MockNode.start - Node starting up ...
+[INFO ] 2017-04-17T10:58:29,192 [Test worker] hikari.HikariDataSource.<init> - HikariPool-1 - Started.
+[INFO ] 2017-04-17T10:58:29,885 [Test worker] node.MockNetwork$MockNode.initialiseDatabasePersistence - Connected to h2 database.
+[INFO ] 2017-04-17T10:58:29,892 [Test worker] hikari.HikariDataSource.<init> - HikariPool-2 - Started.
+[INFO ] 2017-04-17T10:58:30,378 [Test worker] node.MockNetwork$MockNode.obtainKeyPair - Identity key not found, generating fresh key!
+[INFO ] 2017-04-17T10:58:30,813 [Test worker] node.MockNetwork$MockNode.obtainKeyPair - Identity key not found, generating fresh key!
+[INFO ] 2017-04-17T10:58:30,913 [Test worker] hikari.HikariDataSource.<init> - HikariPool-3 - Started.
+[INFO ] 2017-04-17T10:58:30,970 [Test worker] node.MockNetwork$MockNode.obtainKeyPair - Identity key not found, generating fresh key!
+[INFO ] 2017-04-17T10:58:31,062 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.NotaryFlow$Client
+[INFO ] 2017-04-17T10:58:31,065 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.NotaryChangeFlow$Instigator
+[INFO ] 2017-04-17T10:58:31,069 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.FetchTransactionsFlow
+[INFO ] 2017-04-17T10:58:31,071 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.FetchAttachmentsFlow
+[INFO ] 2017-04-17T10:58:31,073 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.BroadcastTransactionFlow
+[INFO ] 2017-04-17T10:58:31,224 [Test worker] schema.HibernateObserver.makeSessionFactoryForSchema - Creating session factory for schema CashSchemaV1(name=net.corda.schemas.CashSchema, version=1)
+[INFO ] 2017-04-17T10:58:31,539 [Test worker] hibernate.Version.logVersion - HHH000412: Hibernate Core {5.2.6.Final}
+[INFO ] 2017-04-17T10:58:31,541 [Test worker] cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+[INFO ] 2017-04-17T10:58:31,626 [Test worker] common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[INFO ] 2017-04-17T10:58:31,814 [Test worker] internal.ConnectionProviderInitiator.initiateService - HHH000130: Instantiating explicit connection provider: net.corda.node.services.schema.HibernateObserver$NodeDatabaseConnectionProvider
+[INFO ] 2017-04-17T10:58:31,839 [Test worker] dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 2017-04-17T10:58:32,913 [Test worker] connections.access.getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1735c108] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2017-04-17T10:58:32,952 [Test worker] schema.HibernateObserver.makeSessionFactoryForSchema - Created session factory for schema CashSchemaV1(name=net.corda.schemas.CashSchema, version=1)
+[INFO ] 2017-04-17T10:58:32,962 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.ContractUpgradeFlow$Instigator
+[WARN ] 2017-04-17T10:58:33,017 [Test worker] node.MockNetwork$MockNode.start - Corda node is running in dev mode.
+[INFO ] 2017-04-17T10:58:33,034 [Test worker] node.MockNetwork$MockNode.start - Node starting up ...
+[INFO ] 2017-04-17T10:58:33,034 [Test worker] hikari.HikariDataSource.<init> - HikariPool-4 - Started.
+[INFO ] 2017-04-17T10:58:33,038 [Test worker] node.MockNetwork$MockNode.initialiseDatabasePersistence - Connected to h2 database.
+[INFO ] 2017-04-17T10:58:33,039 [Test worker] hikari.HikariDataSource.<init> - HikariPool-5 - Started.
+[INFO ] 2017-04-17T10:58:33,050 [Mock node 0 thread] network.AbstractNetworkMapService.processRegistrationRequest - Added node Notary Service to network map
+[INFO ] 2017-04-17T10:58:33,061 [Test worker] hikari.HikariDataSource.<init> - HikariPool-6 - Started.
+[INFO ] 2017-04-17T10:58:33,066 [Test worker] node.MockNetwork$MockNode.obtainKeyPair - Identity key not found, generating fresh key!
+[INFO ] 2017-04-17T10:58:33,071 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.NotaryChangeFlow$Instigator
+[INFO ] 2017-04-17T10:58:33,071 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.FetchTransactionsFlow
+[INFO ] 2017-04-17T10:58:33,071 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.FetchAttachmentsFlow
+[INFO ] 2017-04-17T10:58:33,072 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.BroadcastTransactionFlow
+[INFO ] 2017-04-17T10:58:33,074 [Test worker] schema.HibernateObserver.makeSessionFactoryForSchema - Creating session factory for schema CashSchemaV1(name=net.corda.schemas.CashSchema, version=1)
+[INFO ] 2017-04-17T10:58:33,080 [Test worker] internal.ConnectionProviderInitiator.initiateService - HHH000130: Instantiating explicit connection provider: net.corda.node.services.schema.HibernateObserver$NodeDatabaseConnectionProvider
+[INFO ] 2017-04-17T10:58:33,081 [Test worker] dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 2017-04-17T10:58:33,099 [Test worker] connections.access.getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3cea9d8e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2017-04-17T10:58:33,113 [Test worker] schema.HibernateObserver.makeSessionFactoryForSchema - Created session factory for schema CashSchemaV1(name=net.corda.schemas.CashSchema, version=1)
+[INFO ] 2017-04-17T10:58:33,114 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.ContractUpgradeFlow$Instigator
+[INFO ] 2017-04-17T10:58:33,121 [Mock node 0 thread] network.AbstractNetworkMapService.processRegistrationRequest - Added node Mock Company 1 to network map
+[WARN ] 2017-04-17T10:58:33,135 [Test worker] node.MockNetwork$MockNode.start - Corda node is running in dev mode.
+[INFO ] 2017-04-17T10:58:33,154 [Test worker] node.MockNetwork$MockNode.start - Node starting up ...
+[INFO ] 2017-04-17T10:58:33,154 [Test worker] hikari.HikariDataSource.<init> - HikariPool-7 - Started.
+[INFO ] 2017-04-17T10:58:33,160 [Test worker] node.MockNetwork$MockNode.initialiseDatabasePersistence - Connected to h2 database.
+[INFO ] 2017-04-17T10:58:33,160 [Test worker] hikari.HikariDataSource.<init> - HikariPool-8 - Started.
+[INFO ] 2017-04-17T10:58:33,180 [Test worker] hikari.HikariDataSource.<init> - HikariPool-9 - Started.
+[INFO ] 2017-04-17T10:58:33,184 [Test worker] node.MockNetwork$MockNode.obtainKeyPair - Identity key not found, generating fresh key!
+[INFO ] 2017-04-17T10:58:33,189 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.NotaryChangeFlow$Instigator
+[INFO ] 2017-04-17T10:58:33,189 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.FetchTransactionsFlow
+[INFO ] 2017-04-17T10:58:33,189 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.FetchAttachmentsFlow
+[INFO ] 2017-04-17T10:58:33,189 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.BroadcastTransactionFlow
+[INFO ] 2017-04-17T10:58:33,193 [Test worker] schema.HibernateObserver.makeSessionFactoryForSchema - Creating session factory for schema CashSchemaV1(name=net.corda.schemas.CashSchema, version=1)
+[INFO ] 2017-04-17T10:58:33,199 [Test worker] internal.ConnectionProviderInitiator.initiateService - HHH000130: Instantiating explicit connection provider: net.corda.node.services.schema.HibernateObserver$NodeDatabaseConnectionProvider
+[INFO ] 2017-04-17T10:58:33,200 [Test worker] dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 2017-04-17T10:58:33,219 [Test worker] connections.access.getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ca7c239] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2017-04-17T10:58:33,234 [Test worker] schema.HibernateObserver.makeSessionFactoryForSchema - Created session factory for schema CashSchemaV1(name=net.corda.schemas.CashSchema, version=1)
+[INFO ] 2017-04-17T10:58:33,235 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.ContractUpgradeFlow$Instigator
+[INFO ] 2017-04-17T10:58:33,248 [Mock node 0 thread] network.AbstractNetworkMapService.processRegistrationRequest - Added node Mock Company 2 to network map
+[INFO ] 2017-04-17T10:58:33,279 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.docs.ForeignExchangeFlow
+[INFO ] 2017-04-17T10:58:33,280 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.docs.ForeignExchangeFlow
+[INFO ] 2017-04-17T10:58:33,287 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.docs.SubmitCompletionFlow
+[INFO ] 2017-04-17T10:58:33,287 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.docs.SubmitCompletionFlow
+[INFO ] 2017-04-17T10:58:33,589 [Mock node 1 thread] schema.HibernateObserver.makeSessionFactoryForSchema - Creating session factory for schema CashSchemaV1(name=net.corda.schemas.CashSchema, version=1)
+[INFO ] 2017-04-17T10:58:33,596 [Mock node 1 thread] internal.ConnectionProviderInitiator.initiateService - HHH000130: Instantiating explicit connection provider: net.corda.node.services.schema.HibernateObserver$NodeDatabaseConnectionProvider
+[INFO ] 2017-04-17T10:58:33,597 [Mock node 1 thread] dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 2017-04-17T10:58:33,618 [Mock node 1 thread] connections.access.getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3e53fea1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2017-04-17T10:58:33,630 [Mock node 1 thread] schema.HibernateObserver.makeSessionFactoryForSchema - Created session factory for schema CashSchemaV1(name=net.corda.schemas.CashSchema, version=1)
+[INFO ] 2017-04-17T10:58:33,849 [Mock node 2 thread] schema.HibernateObserver.makeSessionFactoryForSchema - Creating session factory for schema CashSchemaV1(name=net.corda.schemas.CashSchema, version=1)
+[INFO ] 2017-04-17T10:58:33,856 [Mock node 2 thread] internal.ConnectionProviderInitiator.initiateService - HHH000130: Instantiating explicit connection provider: net.corda.node.services.schema.HibernateObserver$NodeDatabaseConnectionProvider
+[INFO ] 2017-04-17T10:58:33,857 [Mock node 2 thread] dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 2017-04-17T10:58:33,877 [Mock node 2 thread] connections.access.getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1da0de63] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2017-04-17T10:58:33,886 [Mock node 2 thread] schema.HibernateObserver.makeSessionFactoryForSchema - Created session factory for schema CashSchemaV1(name=net.corda.schemas.CashSchema, version=1)
+[INFO ] 2017-04-17T10:58:34,542 [Test worker] pool.HikariPool.shutdown - HikariPool-1 - Close initiated...
+[INFO ] 2017-04-17T10:58:34,547 [Test worker] pool.HikariPool.shutdown - HikariPool-1 - Closed.
+[INFO ] 2017-04-17T10:58:34,547 [Test worker] pool.HikariPool.shutdown - HikariPool-4 - Close initiated...
+[INFO ] 2017-04-17T10:58:34,552 [Test worker] pool.HikariPool.shutdown - HikariPool-4 - Closed.
+[INFO ] 2017-04-17T10:58:34,552 [Test worker] pool.HikariPool.shutdown - HikariPool-7 - Close initiated...
+[INFO ] 2017-04-17T10:58:34,554 [Test worker] pool.HikariPool.shutdown - HikariPool-7 - Closed.
+[WARN ] 2017-04-17T10:58:34,564 [Test worker] node.MockNetwork$MockNode.start - Corda node is running in dev mode.
+[INFO ] 2017-04-17T10:58:34,578 [Test worker] node.MockNetwork$MockNode.start - Node starting up ...
+[INFO ] 2017-04-17T10:58:34,578 [Test worker] hikari.HikariDataSource.<init> - HikariPool-10 - Started.
+[INFO ] 2017-04-17T10:58:34,582 [Test worker] node.MockNetwork$MockNode.initialiseDatabasePersistence - Connected to h2 database.
+[INFO ] 2017-04-17T10:58:34,582 [Test worker] hikari.HikariDataSource.<init> - HikariPool-11 - Started.
+[INFO ] 2017-04-17T10:58:34,591 [Test worker] node.MockNetwork$MockNode.obtainKeyPair - Identity key not found, generating fresh key!
+[INFO ] 2017-04-17T10:58:34,592 [Test worker] node.MockNetwork$MockNode.obtainKeyPair - Identity key not found, generating fresh key!
+[INFO ] 2017-04-17T10:58:34,597 [Test worker] hikari.HikariDataSource.<init> - HikariPool-12 - Started.
+[INFO ] 2017-04-17T10:58:34,603 [Test worker] node.MockNetwork$MockNode.obtainKeyPair - Identity key not found, generating fresh key!
+[INFO ] 2017-04-17T10:58:34,607 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.NotaryFlow$Client
+[INFO ] 2017-04-17T10:58:34,608 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.NotaryChangeFlow$Instigator
+[INFO ] 2017-04-17T10:58:34,608 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.FetchTransactionsFlow
+[INFO ] 2017-04-17T10:58:34,608 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.FetchAttachmentsFlow
+[INFO ] 2017-04-17T10:58:34,609 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.BroadcastTransactionFlow
+[INFO ] 2017-04-17T10:58:34,612 [Test worker] schema.HibernateObserver.makeSessionFactoryForSchema - Creating session factory for schema CashSchemaV1(name=net.corda.schemas.CashSchema, version=1)
+[INFO ] 2017-04-17T10:58:34,616 [Test worker] internal.ConnectionProviderInitiator.initiateService - HHH000130: Instantiating explicit connection provider: net.corda.node.services.schema.HibernateObserver$NodeDatabaseConnectionProvider
+[INFO ] 2017-04-17T10:58:34,617 [Test worker] dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 2017-04-17T10:58:34,634 [Test worker] connections.access.getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@e8e190f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2017-04-17T10:58:34,642 [Test worker] schema.HibernateObserver.makeSessionFactoryForSchema - Created session factory for schema CashSchemaV1(name=net.corda.schemas.CashSchema, version=1)
+[INFO ] 2017-04-17T10:58:34,643 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.ContractUpgradeFlow$Instigator
+[WARN ] 2017-04-17T10:58:34,649 [Test worker] node.MockNetwork$MockNode.start - Corda node is running in dev mode.
+[INFO ] 2017-04-17T10:58:34,650 [Mock node 0 thread] network.AbstractNetworkMapService.processRegistrationRequest - Added node Notary Service to network map
+[INFO ] 2017-04-17T10:58:34,663 [Test worker] node.MockNetwork$MockNode.start - Node starting up ...
+[INFO ] 2017-04-17T10:58:34,663 [Test worker] hikari.HikariDataSource.<init> - HikariPool-13 - Started.
+[INFO ] 2017-04-17T10:58:34,667 [Test worker] node.MockNetwork$MockNode.initialiseDatabasePersistence - Connected to h2 database.
+[INFO ] 2017-04-17T10:58:34,667 [Test worker] hikari.HikariDataSource.<init> - HikariPool-14 - Started.
+[INFO ] 2017-04-17T10:58:34,679 [Test worker] hikari.HikariDataSource.<init> - HikariPool-15 - Started.
+[INFO ] 2017-04-17T10:58:34,681 [Test worker] node.MockNetwork$MockNode.obtainKeyPair - Identity key not found, generating fresh key!
+[INFO ] 2017-04-17T10:58:34,686 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.NotaryChangeFlow$Instigator
+[INFO ] 2017-04-17T10:58:34,686 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.FetchTransactionsFlow
+[INFO ] 2017-04-17T10:58:34,687 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.FetchAttachmentsFlow
+[INFO ] 2017-04-17T10:58:34,687 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.BroadcastTransactionFlow
+[INFO ] 2017-04-17T10:58:34,689 [Test worker] schema.HibernateObserver.makeSessionFactoryForSchema - Creating session factory for schema CashSchemaV1(name=net.corda.schemas.CashSchema, version=1)
+[INFO ] 2017-04-17T10:58:34,695 [Test worker] internal.ConnectionProviderInitiator.initiateService - HHH000130: Instantiating explicit connection provider: net.corda.node.services.schema.HibernateObserver$NodeDatabaseConnectionProvider
+[INFO ] 2017-04-17T10:58:34,696 [Test worker] dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 2017-04-17T10:58:34,711 [Test worker] connections.access.getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1758517c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2017-04-17T10:58:34,718 [Test worker] schema.HibernateObserver.makeSessionFactoryForSchema - Created session factory for schema CashSchemaV1(name=net.corda.schemas.CashSchema, version=1)
+[INFO ] 2017-04-17T10:58:34,719 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.ContractUpgradeFlow$Instigator
+[INFO ] 2017-04-17T10:58:34,722 [Mock node 0 thread] network.AbstractNetworkMapService.processRegistrationRequest - Added node Mock Company 1 to network map
+[WARN ] 2017-04-17T10:58:34,732 [Test worker] node.MockNetwork$MockNode.start - Corda node is running in dev mode.
+[INFO ] 2017-04-17T10:58:34,742 [Test worker] node.MockNetwork$MockNode.start - Node starting up ...
+[INFO ] 2017-04-17T10:58:34,743 [Test worker] hikari.HikariDataSource.<init> - HikariPool-16 - Started.
+[INFO ] 2017-04-17T10:58:34,747 [Test worker] node.MockNetwork$MockNode.initialiseDatabasePersistence - Connected to h2 database.
+[INFO ] 2017-04-17T10:58:34,748 [Test worker] hikari.HikariDataSource.<init> - HikariPool-17 - Started.
+[INFO ] 2017-04-17T10:58:34,760 [Test worker] hikari.HikariDataSource.<init> - HikariPool-18 - Started.
+[INFO ] 2017-04-17T10:58:34,765 [Test worker] node.MockNetwork$MockNode.obtainKeyPair - Identity key not found, generating fresh key!
+[INFO ] 2017-04-17T10:58:34,769 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.NotaryChangeFlow$Instigator
+[INFO ] 2017-04-17T10:58:34,769 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.FetchTransactionsFlow
+[INFO ] 2017-04-17T10:58:34,769 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.FetchAttachmentsFlow
+[INFO ] 2017-04-17T10:58:34,769 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.BroadcastTransactionFlow
+[INFO ] 2017-04-17T10:58:34,772 [Test worker] schema.HibernateObserver.makeSessionFactoryForSchema - Creating session factory for schema CashSchemaV1(name=net.corda.schemas.CashSchema, version=1)
+[INFO ] 2017-04-17T10:58:34,776 [Test worker] internal.ConnectionProviderInitiator.initiateService - HHH000130: Instantiating explicit connection provider: net.corda.node.services.schema.HibernateObserver$NodeDatabaseConnectionProvider
+[INFO ] 2017-04-17T10:58:34,778 [Test worker] dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 2017-04-17T10:58:34,793 [Test worker] connections.access.getIsolatedConnection - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@444c41b3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2017-04-17T10:58:34,801 [Test worker] schema.HibernateObserver.makeSessionFactoryForSchema - Created session factory for schema CashSchemaV1(name=net.corda.schemas.CashSchema, version=1)
+[INFO ] 2017-04-17T10:58:34,802 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.flows.ContractUpgradeFlow$Instigator
+[INFO ] 2017-04-17T10:58:34,806 [Mock node 0 thread] network.AbstractNetworkMapService.processRegistrationRequest - Added node Mock Company 2 to network map
+[INFO ] 2017-04-17T10:58:34,813 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.docs.ForeignExchangeFlow
+[INFO ] 2017-04-17T10:58:34,813 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.docs.ForeignExchangeFlow
+[INFO ] 2017-04-17T10:58:34,813 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.docs.SubmitCompletionFlow
+[INFO ] 2017-04-17T10:58:34,813 [Test worker] node.MockNetwork$MockNode.registerFlowInitiator - Registering flow net.corda.docs.SubmitCompletionFlow
+[INFO ] 2017-04-17T10:58:35,035 [Test worker] pool.HikariPool.shutdown - HikariPool-10 - Close initiated...
+[INFO ] 2017-04-17T10:58:35,038 [Test worker] pool.HikariPool.shutdown - HikariPool-10 - Closed.
+[INFO ] 2017-04-17T10:58:35,038 [Test worker] pool.HikariPool.shutdown - HikariPool-13 - Close initiated...
+[INFO ] 2017-04-17T10:58:35,041 [Test worker] pool.HikariPool.shutdown - HikariPool-13 - Closed.
+[INFO ] 2017-04-17T10:58:35,041 [Test worker] pool.HikariPool.shutdown - HikariPool-16 - Close initiated...
+[INFO ] 2017-04-17T10:58:35,043 [Test worker] pool.HikariPool.shutdown - HikariPool-16 - Closed.
